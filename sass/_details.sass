@@ -1,0 +1,188 @@
+.details 
+    &-block 
+        padding-top: 20px
+    &-header
+        position: relative
+    &-header p 
+        margin: 0
+        padding-top: 25px
+        padding-right: 390px
+        margin: 0
+        text-align: center
+        opacity: 0.4
+        color: #888888
+        font-family: Lato
+        font-size: 65px
+        font-weight: 400
+        line-height: 31px
+        text-transform: uppercase
+    &-header h2
+        right: 46%
+        top: 0%
+        position: absolute 
+        color: #111111
+        font-family: Lato
+        font-size: 65px
+        font-weight: 400
+        line-height: 31px
+        text-transform: uppercase
+    &-header span
+        color: #ea0d60
+    &-text 
+        display: flex
+        justify-content: center
+        margin-top: 50px
+        margin-left: 280px
+    &-text p
+        width: 700px 
+        color: #111111
+        font-family: Lato
+        font-size: 21px
+        font-weight: 400
+        line-height: 30px
+        letter-spacing: 0.1px
+    &-front p
+        text-align: center
+        margin: 0
+        opacity: 0.2
+        color: #000000
+        font-family: Montserrat
+        font-size: 100px
+        font-weight: 700
+        text-transform: uppercase
+        letter-spacing: 0.1px
+
+    
+    &-front
+        &__car 
+            display: flex
+            justify-content: center
+        &__left
+            display: flex
+            justify-content: space-between
+            flex-direction: column
+            margin-right: 10px
+        &__right 
+            display: flex
+            justify-content: space-between
+            flex-direction: column
+            margin-left: 10px
+
+        &__left img
+            border-radius: 50% 
+            box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75)
+        &__right img
+            border-radius: 50%  
+            box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75)
+    &-left
+        &__box
+            display: flex
+            flex-direction: column
+            justify-content: center
+            margin-right: 5px
+    &-right
+        &__box 
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            margin-left: 5px
+    &-first
+        &__box
+            margin-top: 60px
+            border-left: 1px solid #000000
+            border-bottom: 1px solid #000000
+            width: 65px
+            height: 65px
+    &-second
+        &__box 
+            margin-top: 60px
+            margin-bottom: 30px
+            border-bottom: 1px solid #000000
+            width: 65px
+            height: 65px
+    &-third
+        &__box
+            margin-top: 30px
+            border-top: 1px solid #000000
+            width: 65px
+            height: 65px
+    &-fourth
+        &__box
+            margin-bottom: 30px
+            border-bottom: 1px solid #000000
+            width: 65px
+            height: 65px
+
+@media (max-width: 1110px)
+    .details
+        &-header p 
+            padding-right: 0px
+        &-header h2 
+            margin: 0
+            padding-top: 30px
+            text-align: center
+            right: 0%
+            position: relative
+        &-text 
+            margin-left: 0px
+        &-first
+            &__box
+                width: 20px
+        &-second
+            &__box 
+                width: 20px
+        &-third
+            &__box
+                width: 20px
+        &-fourth
+            &__box
+                width: 20px
+@media (max-width: 990px)
+    .details
+        &-right
+            &__box
+                display: none
+        &-left
+            &__box 
+                display: none
+        &-front 
+            &__car 
+                flex-direction: column
+                align-items: center
+            &__left
+                flex-direction: row
+                margin-right: 0px
+            &__left img
+                margin: 20px
+            &__right
+                flex-direction: row
+                margin-left: 0px
+            &__right img 
+                margin: 20px
+@media (max-width: 768px)
+    .details 
+        &-text p 
+            width: 90%
+        &-center
+            &__car
+                width: 400px
+        &-front
+            &__left img 
+                margin: 5px
+            &__right img 
+                margin: 5px
+@media (max-width: 425px)
+    .details
+        &-center
+            &__car
+                width: 290px
+        &-front p 
+            font-size: 70px
+        &-front
+            &__left img 
+                width: 140px
+                height: 140px
+            &__right img 
+                width: 140px
+                height: 140px
+    
