@@ -1,0 +1,114 @@
+.back 
+    &-block
+        padding-top: 100px
+        text-align: center
+    &-header h2 
+        margin: 0
+        opacity: 0.2
+        color: #000000
+        font-family: Montserrat
+        font-size: 113px
+        font-weight: 700
+        line-height: 188.19px
+        text-transform: uppercase
+        letter-spacing: 0.1px
+    &-wrap
+        display: flex
+        justify-content: center
+        margin-top: 100px
+    &-left
+        display: flex
+        align-items: flex-end
+        margin-right: 10px
+    &-right
+        display: flex
+        align-items: center
+        margin-left: 10px
+    &-right img 
+        margin-bottom: 90px
+    &-subtext 
+        margin-top: 50px
+        margin-bottom: 100px
+    &-subtext p 
+        margin: 0
+        font-family: Lato
+        font-size: 16px
+        font-weight: 400
+        text-transform: uppercase
+        color: #000000
+        letter-spacing: 0.64px
+    &-subtext a 
+        font-family: Lato
+        font-size: 16px
+        font-weight: 400
+        text-transform: uppercase
+        color: #ea0d60
+        text-decoration: underline
+        
+
+
+    &-left
+        &__line
+            display: flex
+            align-items: flex-end
+    &-left
+        &__line div 
+            margin-bottom: 30px
+            width: 65px
+            height: 65px
+            border-top: 1px solid #000000
+    &-right
+        &__line
+            display: flex
+            align-items: center
+    &-right
+        &__line div 
+            margin-bottom: 30px
+            width: 65px
+            height: 65px
+            border-top: 1px solid #000000
+@media (max-width: 1110px)
+    .back
+        &-left
+            &__line div 
+                width: 20px
+        &-right
+            &__line div 
+                width: 20px
+@media (max-width: 990px)
+    .back
+        &-left
+            &__line
+                display: none
+        &-right
+            &__line
+                display: none
+        &-wrap
+            align-items: center
+            justify-content: center
+            flex-direction: column
+        &-left 
+            margin-right: 0px
+        &-right
+            margin-left: 0px
+        &-left img
+            margin: 20px
+        &-right img 
+            margin: 20px
+        &-block
+            padding-top: 20px
+        &-header h2 
+            line-height: 100px
+@media (max-width: 768px)
+    .back
+        &-wrap 
+            margin-top: 50px
+        &-center img 
+            width: 400px
+@media (max-width: 425px)
+    .back
+        &-center img 
+            width: 290px
+        &-header h2 
+            font-size: 70px
+

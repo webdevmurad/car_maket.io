@@ -1,0 +1,139 @@
+.price
+    background: #000000
+    &-block
+        position: relative
+        padding-top: 100px
+        padding-bottom: 250px
+    &-header
+        position: relative
+    &-header p 
+        margin: 0
+        padding-top: 25px
+        padding-right: 390px
+        margin: 0
+        text-align: center
+        opacity: 0.4
+        color: #888888
+        font-family: Lato
+        font-size: 65px
+        font-weight: 400
+        line-height: 31px
+        text-transform: uppercase
+    &-header h2
+        right: 50%
+        top: 0%
+        position: absolute 
+        color: #ffffff
+        font-family: Lato
+        font-size: 65px
+        font-weight: 400
+        line-height: 31px
+        text-transform: uppercase
+    &-header span
+        color: #ea0d60
+    &-title
+        text-align: center
+        margin-top: 100px
+    &-text
+        margin: 0
+        color: #8A8A8A
+        font-size: 39px
+        font-weight: 400
+        text-transform: uppercase
+        font-family: "Lato - Thin"
+        font-weight: 100
+    &-subtext
+        margin: 0
+        color: #ffffff
+        font-family: Lato
+        font-size: 39px
+        font-weight: 400
+        text-transform: uppercase
+    &-sum
+        text-align: center
+        margin: 0
+        text-shadow: 0 0 9px rgba(234, 13, 96, 0.55)
+        color: #ea0d60
+        font-family: Lato
+        font-size: 128px
+        font-weight: 400
+        line-height: 103px
+        text-transform: uppercase
+        color: #ea0d60
+    &-btn
+        text-align: center
+        
+    &-btn a
+        border-radius: 25px
+        background-color: #ea0d60
+        padding: 20px 40px
+        color: #ffffff
+        text-decoration: none
+        font-family: Montserrat
+        font-size: 12px
+        font-weight: 700
+        text-transform: uppercase
+        letter-spacing: 0.48px
+        cursor: pointer
+        &:hover
+            
+        
+    &-img
+        display: flex
+        align-items: flex-end
+        justify-content: space-between
+        width: 100%
+        bottom: 0%
+        position: absolute
+        &__right
+            right: 0%
+
+@media (max-width: 1370px)
+    .price
+        &-img
+            &__right
+                display: none
+
+@media (max-width: 1110px)
+    .price
+        &-header p 
+            padding-right: 0px
+        &-header h2 
+            margin: 0
+            padding-top: 30px
+            text-align: center
+            right: 0%
+            position: relative
+
+@media (max-width: 990px)
+    .price
+        &-sum p 
+            margin-top: 50px
+            margin-bottom: 50px
+        &-block
+            padding-top: 50px
+            padding-bottom: 80px
+        &-img
+            &__left
+                display: none
+        &-title
+            margin-top: 50px
+
+@media (max-width: 768px)
+    .price 
+        &-text 
+            font-size: 30px
+        &-subtext 
+            font-size: 30px
+        &-sum p 
+            font-size: 50px
+@media (max-width: 425px)
+    .price
+        &-header p
+            opacity: 1
+            font-size: 50px
+            color: #ea0d60 
+        &-header h2 
+            font-size: 40px
+
+

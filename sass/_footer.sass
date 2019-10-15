@@ -1,0 +1,116 @@
+.footer
+    &-header
+        text-align: center
+        padding-top: 90px
+        &__text
+            text-align: center
+            margin-bottom: 50px
+        &__text h2 
+            margin: 0
+            color: #000000
+            font-family: "Lato - Thin"
+            font-size: 54px
+            font-weight: 300
+            text-transform: uppercase
+        &__text p
+            margin: 0 
+            color: #000000
+            font-family: Lato
+            font-size: 54px
+            font-weight: 400
+            text-transform: uppercase
+        &__btn
+            border-radius: 25px
+            background-color: #ea0d60
+            color: #ffffff
+            padding: 20px 44px
+            text-decoration: none
+            font-family: Montserrat
+            font-size: 12px
+            font-weight: 700
+            text-transform: uppercase
+            letter-spacing: 0.48px
+    &-content
+        padding-top: 150px
+        padding-bottom: 170px
+        width: 1170px
+        margin: auto
+        &__blocks
+            display: flex
+            justify-content: space-between
+        &__block h4 
+            margin: 0
+            color: #000000
+            font-family: Lato
+            font-size: 31px
+            font-weight: 400
+            line-height: 31px
+            text-transform: uppercase
+        &__block p
+            font-family: Lato
+            font-size: 16px
+            font-weight: 400
+            line-height: 31px
+            &:hover
+                cursor: pointer
+                color: #ea0d60
+        &__block a
+            color: #ea0d60
+            text-decoration: none
+    &-bottom
+        background-color: #000000
+        &__block
+            width: 1170px
+            margin: auto
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding-top: 20px
+            padding-bottom: 20px
+        &__text
+            font-family: Lato
+            font-size: 16px
+            font-weight: 400
+            line-height: 45px
+            color: #ffffff
+        &__logo img 
+            margin-right: 10px
+            &:hover
+                cursor: pointer
+            &:last-child
+                margin-right: 0px
+@media (max-width: 1170px)
+    .footer
+        &-content
+            width: 990px
+        &-bottom
+            &__block
+                width: 990px
+@media (max-width: 990px)
+    .footer
+        &-content
+            width: 768px
+        &-bottom
+            &__block
+                width: 768px
+@media (max-width: 990px)
+    .footer
+        &-content
+            padding-top: 50px
+            padding-bottom: 50px
+            width: 425px
+            &__blocks
+                flex-wrap: wrap
+            &__block
+                margin-bottom: 20px
+        &-bottom
+            &__block
+                width: 425px
+@media (max-width: 425px)
+    .footer
+        &-content
+            width: 300px
+        &-bottom
+            &__block
+                width: 300px
+
