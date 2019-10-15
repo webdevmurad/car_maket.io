@@ -1,8 +1,5 @@
-header {
-  position: relative;
-}
-
 .header {
+  position: relative;
   background: url("../img/header/background.png");
 }
 
@@ -150,6 +147,28 @@ header {
   letter-spacing: 0.48px;
 }
 
+.dots {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
+
+.dot:hover {
+  cursor: pointer;
+}
+
+.dot p {
+  color: #56D8FF;
+  font-family: Lato;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.dot-active p {
+  font-size: 40px;
+}
+
 @media (max-width: 1110px) {
   .header {
     background-size: auto;
@@ -222,6 +241,10 @@ header {
 @font-face {
   font-family: "Lato - Thin";
   src: url("../fonts/Lato-Thin.ttf") format("opentype");
+}
+
+.overview {
+  position: relative;
 }
 
 .overview-header {
@@ -297,7 +320,7 @@ header {
 }
 
 .overview-auto__two {
-  margin-top: 35px;
+  margin-top: 270px;
 }
 
 @media (max-width: 1610px) {
@@ -371,6 +394,10 @@ header {
   .overview-header h2 {
     font-size: 40px;
   }
+}
+
+.details {
+  position: relative;
 }
 
 .details-block {
@@ -657,6 +684,10 @@ header {
   }
 }
 
+.back {
+  position: relative;
+}
+
 .back-block {
   padding-top: 100px;
   text-align: center;
@@ -704,7 +735,16 @@ header {
   margin-left: 10px;
 }
 
+.back-left img {
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+}
+
 .back-right img {
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
   margin-bottom: 90px;
 }
 
@@ -831,6 +871,7 @@ header {
 }
 
 .price {
+  position: relative;
   background: #000000;
 }
 
@@ -1006,6 +1047,10 @@ header {
   .price-header h2 {
     font-size: 40px;
   }
+}
+
+.footer {
+  position: relative;
 }
 
 .footer-header {

@@ -1,6 +1,6 @@
-header 
-    position: relative
+
 .header
+    position: relative
     background: url('../img/header/background.png')
     &-block
         padding: 50px 50px
@@ -98,6 +98,23 @@ header
         font-weight: 700
         text-transform: uppercase
         letter-spacing: 0.48px
+
+.dots
+    position: absolute
+    top: 30%
+    right: 5%
+.dot 
+    &:hover
+        cursor: pointer
+.dot p 
+    color: #56D8FF
+    font-family: Lato
+    font-size: 30px
+    margin: 0
+    margin-bottom: 20px
+.dot
+    &-active p 
+        font-size: 40px
 
 @media (max-width: 1110px)
     .header
