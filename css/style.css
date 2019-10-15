@@ -150,6 +150,70 @@ header {
   letter-spacing: 0.48px;
 }
 
+@media (max-width: 1110px) {
+  .header {
+    background-size: auto;
+  }
+  .header-nav__menu a {
+    font-size: 20px;
+  }
+  .header-text {
+    padding-top: 150px;
+  }
+  .header-text h1 {
+    font-size: 90px;
+  }
+  .header-text h2 {
+    font-size: 90px;
+  }
+  .header-btn {
+    padding-bottom: 230px;
+  }
+}
+
+@media (max-width: 990px) {
+  .header-nav__menu a {
+    margin-right: 15px;
+  }
+  .header-text {
+    padding-top: 100px;
+  }
+  .header-text h1 {
+    font-size: 60px;
+  }
+  .header-text h2 {
+    font-size: 60px;
+  }
+  .header-btn {
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-position: center;
+  }
+  .header-nav__menu {
+    display: none;
+  }
+  .header-btn {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header-text {
+    padding-top: 50px;
+  }
+  .header-text h1 {
+    font-size: 40px;
+  }
+  .header-text h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -234,5 +298,78 @@ header {
 
 .overview-auto__two {
   margin-top: 35px;
+}
+
+@media (max-width: 1610px) {
+  .overview-auto__two {
+    display: none;
+  }
+}
+
+@media (max-width: 1110px) {
+  .overview {
+    background: url("../img/overview/auto-2.png") no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+  .overview-header {
+    padding-top: 50px;
+  }
+  .overview-header p {
+    position: relative;
+    padding-top: 0px;
+    margin: 0;
+  }
+  .overview-header h2 {
+    padding-top: 30px;
+    margin: 0;
+    position: relative;
+    right: 0%;
+  }
+  .overview-text {
+    padding-top: 30px;
+    position: relative;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    right: 0%;
+  }
+  .overview-text p {
+    color: sienna;
+  }
+  .overview-block__img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .overview {
+    background: url("../img/overview/auto-1.png") no-repeat;
+    background-size: cover;
+  }
+  .overview-header {
+    padding-top: 50px;
+  }
+  .overview-text p {
+    width: 90%;
+    color: black;
+  }
+  .overview-block {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .overview-header {
+    padding-top: 30px;
+  }
+  .overview-header p {
+    opacity: 1;
+    font-size: 50px;
+    color: #ea0d60;
+  }
+  .overview-header h2 {
+    font-size: 40px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

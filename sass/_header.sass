@@ -98,3 +98,50 @@ header
         font-weight: 700
         text-transform: uppercase
         letter-spacing: 0.48px
+
+@media (max-width: 1110px)
+    .header
+        background-size: auto
+        &-nav 
+            &__menu a 
+                font-size: 20px
+        &-text 
+            padding-top: 150px
+        &-text h1 
+            font-size: 90px
+        &-text h2 
+            font-size: 90px 
+        &-btn
+            padding-bottom: 230px
+@media (max-width: 990px)
+    .header
+        &-nav 
+            &__menu a 
+                margin-right: 15px
+        &-text 
+            padding-top: 100px
+        &-text h1 
+            font-size: 60px
+        &-text h2 
+            font-size: 60px
+        &-btn
+            padding-bottom: 100px 
+@media (max-width: 768px)
+    .header
+        background-position: center
+        &-nav 
+            &__menu
+                display: none
+        &-btn 
+            padding-bottom: 50px
+@media (max-width: 425px)
+    .header
+        &-text 
+            padding-top: 50px
+        &-text h1 
+            font-size: 40px
+        &-text h2 
+            font-size: 40px
+            line-height: 60px
+
+

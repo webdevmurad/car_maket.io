@@ -49,3 +49,58 @@
             margin-top: 249px
         &__two
             margin-top: 35px
+
+@media (max-width: 1610px)
+    .overview
+        &-auto
+            &__two 
+                display: none
+@media (max-width: 1110px)
+    .overview
+        background: url('../img/overview/auto-2.png') no-repeat
+        background-position: right
+        background-size: contain
+        &-header 
+            padding-top: 50px
+        &-header p 
+            position: relative
+            padding-top: 0px
+            margin: 0
+        &-header h2 
+            padding-top: 30px
+            margin: 0
+            position: relative
+            right: 0%
+        &-text 
+            padding-top: 30px
+            position: relative
+            align-items: center
+            right: 0%
+        &-text p 
+            color: sienna
+        &-block 
+            &__img 
+                display: none
+@media (max-width: 768px)
+    .overview
+        background: url('../img/overview/auto-1.png') no-repeat
+        background-size: cover
+        &-header 
+            padding-top: 50px
+        &-text p
+            width: 90%
+            color: black
+        &-block 
+            padding-top: 30px
+@media (max-width: 425px)
+    .overview
+
+        &-header 
+            padding-top: 30px
+        &-header p
+            opacity: 1
+            font-size: 50px
+            color: #ea0d60
+        &-header h2 
+            font-size: 40px
+
