@@ -1,0 +1,100 @@
+header 
+    position: relative
+.header
+    background: url('../img/header/background.png')
+    &-block
+        padding: 50px 50px
+    &-nav
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &__logo
+            &:hover
+                cursor: pointer
+        &__burger
+            display: flex
+            justify-content: center
+            align-items: center
+            height: 50px
+            &:hover
+                cursor: pointer
+        &__burger span
+            display: block
+            content: ''
+            width: 25px
+            height: 5px
+            border-radius: 3px
+            background-color: white
+            &:after
+                position: absolute
+                margin-top: -10px
+                margin-left: -10px
+                display: block
+                content: ''
+                width: 34px
+                height: 5px
+                border-radius: 3px
+                background-color: white
+            &:before
+                position: absolute
+                margin-top: 10px
+                margin-left: 5px
+                display: block
+                content: ''
+                width: 20px
+                height: 5px
+                border-radius: 3px
+                background-color: white
+        &__active
+            filter: brightness(100%) !important
+            padding-bottom: 10px
+            border-bottom: 4px solid red
+        &__menu a 
+            text-decoration: none
+            color: #ffffff
+            font-size: 30px
+            text-transform: uppercase
+            font-family: Lato
+            padding-bottom: 10px
+            margin-right: 50px
+            filter: brightness(70%)
+            &:last-child 
+                margin-right: 0px
+            &:hover
+                padding-bottom: 10px
+                border-bottom: 4px solid red
+                filter: brightness(100%)
+    &-text
+        text-align: center
+        padding-top: 250px
+    &-text h1
+        margin: 0
+        color: #ffffff
+        font-family: Lato
+        font-size: 100px
+        font-weight: 400
+        text-transform: uppercase
+    &-text h2 
+        margin: 0
+        font-size: 100px
+        color: #ffffff
+        text-transform: uppercase
+        font-family: "Lato - Thin"
+        font-weight: 400
+        line-height: 80.21px
+    &-btn 
+        text-align: center
+        padding-top: 60px
+        padding-bottom: 296px
+    &-btn a 
+        margin: 0
+        color: #ffffff
+        border-radius: 30px
+        background-color: #ea0d60
+        padding: 20px 45px 
+        text-decoration: none
+        font-family: Montserrat
+        font-size: 12px
+        font-weight: 700
+        text-transform: uppercase
+        letter-spacing: 0.48px
