@@ -1221,4 +1221,209 @@
     width: 300px;
   }
 }
+
+.spec-header {
+  background: url("../img/specifications/car_spec.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.spec-header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px;
+}
+
+.spec-header__text {
+  text-align: center;
+  margin-top: 90px;
+  padding-bottom: 120px;
+}
+
+.spec-header__text h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Lato - Thin";
+}
+
+.spec-header__text h1 {
+  margin: 0;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 65px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.spec-header__text p {
+  margin: 0;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 86.05px;
+}
+
+.spec-header__text a {
+  color: #ea0d60;
+}
+
+.journey {
+  position: relative;
+}
+
+.journey-title {
+  position: relative;
+}
+
+.journey-title p {
+  text-align: center;
+  padding-top: 25px;
+  margin-right: 600px;
+  opacity: 0.4;
+  color: #888888;
+  font-family: Lato;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.journey-title h2 {
+  margin: 0;
+  width: 528px;
+  right: 38%;
+  top: 76%;
+  position: absolute;
+  color: black;
+  font-family: Lato;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 55px;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.journey-title span {
+  color: #ea0d60;
+}
+
+.journey-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.journey-text p {
+  margin-top: 60px;
+  margin-right: 25px;
+  width: 565px;
+  color: #111111;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.journey-text__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.journey-text__block {
+  padding: 20px;
+  margin-bottom: 150px;
+}
+
+.journey-text__block h4 {
+  color: #111111;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+}
+
+.journey-text__block p {
+  color: #111111;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.08px;
+}
+
+.journey-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.sale {
+  background: black;
+  position: relative;
+}
+
+.sale-block {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.sale-block h3 {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Lato - Thin";
+  font-size: 54px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.sale-block h2 {
+  padding-bottom: 30px;
+  margin: 0;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 54px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.sale-block a {
+  padding: 20px 44px;
+  border-radius: 25px;
+  background-color: #ea0d60;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.48px;
+}
+
+.sale-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 /*# sourceMappingURL=style.css.map */
