@@ -67,3 +67,45 @@
         position: absolute
         bottom: 0
         left: 0
+    
+@media (max-width: 1110px)
+    .journey
+        &-title p
+            margin-bottom: 30px
+            margin-right: 0px
+        &-title h2
+            text-align: center 
+            width: 80%
+            margin: auto
+            right: 0%
+            position: relative
+@media (max-width: 768px)
+    .journey
+        &-text p 
+            margin-right: 0px
+            width: 80%
+        &-img
+            display: none
+
+@media (max-width: 425px)
+    .journey
+        &-text p 
+            margin-top: 30px
+        &-text
+            &__block 
+                margin-bottom: 0px
+            &__block h4 
+                margin: 0
+            &__block p 
+                margin: 0
+            &__blocks 
+                padding-bottom: 50px
+                flex-wrap: wrap
+
+        &-title p
+            opacity: 1
+            font-size: 50px
+            color: #ea0d60 
+        &-title h2
+            font-size: 40px
+        
