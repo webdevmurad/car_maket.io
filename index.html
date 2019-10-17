@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/animate.min.css">
     <title>Car</title>
 </head>
-<body>
+<body style="display: none;">
     <header>
         <div class="header">
             <div class="header-block">
@@ -20,10 +20,10 @@
                         <img src="./img/header/Oud.png" alt="#">
                     </div>
                     <div class="header-nav__menu animated fadeInDownBig">
-                        <a class="header-nav__active" href="">Home</a>
-                        <a href="">Specifications</a>
-                        <a href="">Gallery</a>
-                        <a href="">Contact</a>
+                        <a class="header-nav__active" href="#">Home</a>
+                        <a href="./specifications.html">Specifications</a>
+                        <a href="./gallery.html">Gallery</a>
+                        <a href="./contact.html">Contact</a>
                     </div>
                     <div class="header-nav__burger animated fadeInRight">
                         <span></span>
@@ -364,11 +364,24 @@
 
     </footer>
 
-        
-        <script src="./wow.min.js"></script>
-        <script>
-            new WOW().init();
-        </script>
+    <script src="./jquery.min.js"></script>  
+    <script src="./wow.min.js"></script>
+    <script>
+        new WOW().init();
+        $(document).ready(function(){ 
+            var body = $("body"); 
+            body.fadeIn(400); 
+            $(document).on("click", "a:not([href^='#']):not([href^='tel']):not([href^='mailto'])", function(e) { 
+                e.preventDefault(); 
+                $("body").fadeOut(400); 
+                var self = this;
+                setTimeout(function () { 
+                    window.location.href = $(self).attr("href"); 
+                }, 400); 
+            }); 
+        });
+
+    </script>
 
 </body>
 

@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
     
 </head>
-<body>
+<body style="display: none;">
 
     <header>
         <div class="header-gallery">
@@ -21,24 +21,25 @@
                     <img src="./img/header/Oud.png" alt="#">
                 </div>
                 <div class="header-nav__menu animated fadeInDownBig">
-                    <a href="">Home</a>
-                    <a href="">Specifications</a>
-                    <a class="header-nav__active" href="">Gallery</a>
-                    <a href="">Contact</a>
+                    <a href="./index.html">Home</a>
+                    <a href="./specifications.html">Specifications</a>
+                    <a class="header-nav__active" href="#">Gallery</a>
+                    <a href="./contact.html">Contact</a>
                 </div>
                 <div class="header-nav__burger animated fadeInRight">
                     <span></span>
                 </div>
             </div>
-            <div class="header-gallery__text">
+            <div class="header-gallery__text wow flash">
                 <h2>Oud H7</h2>
                 <h1>Gallery</h1>
-                <p><a>Home</a> / Specifications</p>
+                <p><a href="./index.html">Home</a> / Specifications</p>
             </div>
         </div>
     </header>
 
     <main>
+        
         <section class="video">
             <div class="video-block">
                 <div class="video-title">
@@ -63,7 +64,7 @@
                     <p class="video-nav">back</p>
                 </div>
                 <div class="video-wrap">
-                    <div class="video-imgs">
+                    <div class="video-imgs wow fadeInLeft">
                         <div class="video-image">
                             <img src="./img/video&image/car_1.jpg" alt="#">
                             <img src="./img/video&image/car_2.png" alt="#">
@@ -73,7 +74,7 @@
                             <img src="./img/video&image/car_4.png" alt="#">
                         </div>
                     </div>
-                    <div class="video-play">
+                    <div class="video-play wow fadeInRight">
                         <img class="video-play__car" src="./img/video&image/car_big.png" alt="#">
                         <img class="video-play__btn" src="./img/video&image/play.png" alt="#">
                     </div>
@@ -87,7 +88,7 @@
                 <h2>20% Off</h2>
                 <a href="#">Buy Now</a>
             </div>
-            <img class="sale-img" src="./img/sale/car.png" alt="#">
+            <img class="sale-img wow flash" src="./img/sale/car.png" alt="#">
         </section>
 
     </main>
@@ -141,6 +142,25 @@
         </div>
 
     </footer>
+
+    <script src="./script.js"></script>
+    <script src="./jquery.min.js"></script>  
+    <script src="./wow.min.js"></script>
+    <script>
+        new WOW().init();
+        $(document).ready(function(){ 
+            var body = $("body"); 
+            body.fadeIn(400); 
+            $(document).on("click", "a:not([href^='#']):not([href^='tel']):not([href^='mailto'])", function(e) { 
+                e.preventDefault(); 
+                $("body").fadeOut(400); 
+                var self = this;
+                setTimeout(function () { 
+                    window.location.href = $(self).attr("href"); 
+                }, 400); 
+            }); 
+        });
+    </script>
 
 </body>
 </html>

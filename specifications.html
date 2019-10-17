@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
     
 </head>
-<body>
+<body style="display: none;">
 
     <header>
         <div class="spec-header">
@@ -21,19 +21,19 @@
                     <img src="./img/header/Oud.png" alt="#">
                 </div>
                 <div class="header-nav__menu animated fadeInDownBig">
-                    <a href="">Home</a>
-                    <a class="header-nav__active" href="">Specifications</a>
-                    <a href="">Gallery</a>
-                    <a href="">Contact</a>
+                    <a href="./index.html">Home</a>
+                    <a class="header-nav__active" href="#">Specifications</a>
+                    <a href="./gallery.html">Gallery</a>
+                    <a href="./contact.html">Contact</a>
                 </div>
                 <div class="header-nav__burger animated fadeInRight">
                     <span></span>
                 </div>
             </div>
-            <div class="spec-header__text">
+            <div class="spec-header__text animated flash">
                 <h2>Oud H7</h2>
                 <h1>Specifications</h1>
-                <p><a>Home</a> / Specifications</p>
+                <p><a href="./index.html">Home</a> / Specifications</p>
             </div>
         </div>
     </header>
@@ -67,7 +67,7 @@
                     <p>Sharing nearly half its part with the R7 LMS racecar</p>
                 </div>
             </div>
-            <img src="./img/journey/Layer_6.png" alt="" class="journey-img">
+            <img src="./img/journey/Layer_6.png" alt="" class="journey-img wow fadeInLeft">
         </section>
 
         <section class="sale">
@@ -76,7 +76,7 @@
                 <h2>20% Off</h2>
                 <a href="#">Buy Now</a>
             </div>
-            <img class="sale-img" src="./img/sale/car.png" alt="#">
+            <img class="sale-img wow flash" src="./img/sale/car.png" alt="#">
         </section>
 
         <section class="description">
@@ -160,5 +160,24 @@
         </div>
 
     </footer>
+
+    <script src="./script.js"></script>
+    <script src="./jquery.min.js"></script>  
+    <script src="./wow.min.js"></script>
+    <script>
+        new WOW().init();
+        $(document).ready(function(){ 
+            var body = $("body"); 
+            body.fadeIn(400); 
+            $(document).on("click", "a:not([href^='#']):not([href^='tel']):not([href^='mailto'])", function(e) { 
+                e.preventDefault(); 
+                $("body").fadeOut(400); 
+                var self = this;
+                setTimeout(function () { 
+                    window.location.href = $(self).attr("href"); 
+                }, 400); 
+            }); 
+        });
+    </script>
 </body>
 </html>
