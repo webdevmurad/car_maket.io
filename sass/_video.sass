@@ -1,0 +1,149 @@
+.video 
+    &-block 
+        padding-top: 100px
+    &-title 
+        position: relative
+    &-title span
+        color: #ea0d60
+    &-title p 
+        margin: 0
+        padding-top: 25px
+        padding-right: 390px
+        margin: 0
+        text-align: center
+        opacity: 0.4
+        color: #888888
+        font-family: Lato
+        font-size: 65px
+        font-weight: 400
+        line-height: 31px
+        text-transform: uppercase
+    &-title h2 
+        right: 34%
+        top: 0%
+        position: absolute
+        color: #111111
+        font-family: Lato
+        font-size: 65px
+        font-weight: 400
+        line-height: 31px
+        z-index: 2
+        text-transform: uppercase  
+    &-text 
+        padding-top: 80px
+        padding-left: 160px
+    &-text p
+        margin: auto 
+        width: 550px
+        color: #111111
+        font-family: Lato
+        font-size: 21px
+        font-weight: 400
+        line-height: 35px
+        letter-spacing: 0.1px
+    &-image 
+        display: flex
+
+    &-wrap 
+        display: flex
+        width: 1190px
+        margin: auto
+        padding-top: 50px 
+        padding-bottom: 100px
+    &-play
+        position: relative
+        &__btn 
+            top: 40%
+            left: 40%
+            position: absolute
+            &:hover
+                cursor: pointer
+    &-navs 
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: row
+        padding-top: 30px
+    &-navs span 
+        color: #111111
+        font-family: Lato
+        font-size: 21px
+        font-weight: 400
+        line-height: 35px
+        text-transform: uppercase
+    &-nav 
+        margin: 0
+        color: #111111
+        font-family: Lato
+        font-size: 21px
+        font-weight: 400
+        line-height: 35px
+        text-transform: uppercase
+        margin-right: 20px
+        margin-left: 20px
+        &:hover 
+            cursor: pointer
+    &-active 
+        color: #ea0d60
+    
+    &-image img 
+        &:hover 
+            cursor: pointer
+
+@media (max-width: 1200px)
+    .video
+        &-wrap 
+            flex-direction: column
+            justify-content: center
+            align-items: center
+@media (max-width: 1110px)
+    .video
+        &-title p 
+            margin: 0
+            padding-right: 0px
+        &-title h2 
+            text-align: center
+            padding-top: 30px
+            margin: 0
+            position: relative
+            right: 0%
+        &-text 
+            padding-left: 0px
+        &-text p 
+            width: 70%
+        &-wrap 
+            width: auto
+@media (max-width: 768px)
+    .video 
+        &-navs 
+            flex-direction: column
+        &-navs span 
+            display: none
+        &-title h2 
+            line-height: 50px
+        &-image 
+            flex-direction: column
+        &-image img 
+            margin: 10px
+        &-play 
+            &__car 
+                width: 410px
+            &__btn 
+                top: 35%
+                left: 37%
+                width: 90px
+                height: 90px
+@media (max-width: 425px)
+    .video 
+        &-image img 
+            width: 270px
+            margin: 10px
+        &-play 
+            &__car 
+                width: 290px
+        &-title p 
+            opacity: 1
+            font-size: 50px
+            color: #ea0d60
+        &-title h2
+            font-size: 40px

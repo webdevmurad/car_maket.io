@@ -1684,4 +1684,297 @@
 .footer-black__text p {
   color: white;
 }
+
+.header-gallery {
+  background: url("../img/gallery/car.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: black;
+}
+
+.header-gallery__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px;
+}
+
+.header-gallery__text {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.header-gallery__text h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Lato - Thin";
+}
+
+.header-gallery__text h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: Lato;
+}
+
+.header-gallery__text p {
+  margin: 0;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 86.05px;
+}
+
+.header-gallery__text a {
+  color: #ea0d60;
+}
+
+@media (max-width: 425px) {
+  .header-gallery__text {
+    margin-top: 60px;
+  }
+  .header-gallery__text h2 {
+    font-size: 40px;
+  }
+  .header-gallery__text h1 {
+    font-size: 40px;
+  }
+  .header-gallery__text p {
+    font-size: 15px;
+  }
+}
+
+.video-block {
+  padding-top: 100px;
+}
+
+.video-title {
+  position: relative;
+}
+
+.video-title span {
+  color: #ea0d60;
+}
+
+.video-title p {
+  margin: 0;
+  padding-top: 25px;
+  padding-right: 390px;
+  margin: 0;
+  text-align: center;
+  opacity: 0.4;
+  color: #888888;
+  font-family: Lato;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.video-title h2 {
+  right: 34%;
+  top: 0%;
+  position: absolute;
+  color: #111111;
+  font-family: Lato;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 31px;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.video-text {
+  padding-top: 80px;
+  padding-left: 160px;
+}
+
+.video-text p {
+  margin: auto;
+  width: 550px;
+  color: #111111;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.video-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.video-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1190px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.video-play {
+  position: relative;
+}
+
+.video-play__btn {
+  top: 40%;
+  left: 40%;
+  position: absolute;
+}
+
+.video-play__btn:hover {
+  cursor: pointer;
+}
+
+.video-navs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 30px;
+}
+
+.video-navs span {
+  color: #111111;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+.video-nav {
+  margin: 0;
+  color: #111111;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.video-nav:hover {
+  cursor: pointer;
+}
+
+.video-active {
+  color: #ea0d60;
+}
+
+.video-image img:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .video-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 1110px) {
+  .video-title p {
+    margin: 0;
+    padding-right: 0px;
+  }
+  .video-title h2 {
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+    position: relative;
+    right: 0%;
+  }
+  .video-text {
+    padding-left: 0px;
+  }
+  .video-text p {
+    width: 70%;
+  }
+  .video-wrap {
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-navs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .video-navs span {
+    display: none;
+  }
+  .video-title h2 {
+    line-height: 50px;
+  }
+  .video-image {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .video-image img {
+    margin: 10px;
+  }
+  .video-play__car {
+    width: 410px;
+  }
+  .video-play__btn {
+    top: 35%;
+    left: 37%;
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 425px) {
+  .video-image img {
+    width: 270px;
+    margin: 10px;
+  }
+  .video-play__car {
+    width: 290px;
+  }
+  .video-title p {
+    opacity: 1;
+    font-size: 50px;
+    color: #ea0d60;
+  }
+  .video-title h2 {
+    font-size: 40px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
