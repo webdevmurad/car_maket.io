@@ -1977,4 +1977,258 @@
     font-size: 40px;
   }
 }
+
+.header-contact {
+  background: url("../img/gallery/car.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: black;
+}
+
+.header-contact__nav {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-contact__text {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.header-contact__text h2 {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Lato - Thin";
+  font-size: 65px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.header-contact__text h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: Lato;
+}
+
+.header-contact__text p {
+  margin: 0;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 86.05px;
+}
+
+.header-contact__text a {
+  color: #ea0d60;
+}
+
+@media (max-width: 425px) {
+  .header-contact__text {
+    margin-top: 60px;
+  }
+  .header-contact__text h2 {
+    font-size: 40px;
+  }
+  .header-contact__text h1 {
+    font-size: 40px;
+  }
+  .header-contact__text p {
+    font-size: 15px;
+  }
+}
+
+.comm-block {
+  padding-bottom: 100px;
+}
+
+.comm-header {
+  position: relative;
+}
+
+.comm-header p {
+  text-align: center;
+  padding-top: 25px;
+  margin-right: 600px;
+  opacity: 0.4;
+  color: #888888;
+  font-family: Lato;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.comm-header h2 {
+  margin: 0;
+  width: 528px;
+  right: 38%;
+  top: 76%;
+  position: absolute;
+  color: black;
+  font-family: Lato;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 55px;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.comm-header span {
+  color: #ea0d60;
+}
+
+.comm-wrap {
+  margin: auto;
+  padding-top: 60px;
+  width: 570px;
+}
+
+.comm-text p {
+  color: #111111;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.comm-inputs__one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.comm-inputs__one input {
+  width: 266px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #A8A8A8;
+  outline: none;
+  color: black;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.comm-inputs__one input::-webkit-input-placeholder {
+  color: #cbcbcb;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.comm-inputs__one input:-ms-input-placeholder {
+  color: #cbcbcb;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.comm-inputs__one input::-ms-input-placeholder {
+  color: #cbcbcb;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.comm-inputs__one input::placeholder {
+  color: #cbcbcb;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.comm-input__two {
+  margin-bottom: 50px;
+}
+
+.comm-input__two input {
+  margin-top: 50px;
+  width: 570px;
+  border: none;
+  border-bottom: 1px solid #A8A8A8;
+  height: 40px;
+  outline: none;
+  color: black;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.comm-input__two input::-webkit-input-placeholder {
+  color: #cbcbcb;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.comm-input__two input:-ms-input-placeholder {
+  color: #cbcbcb;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.comm-input__two input::-ms-input-placeholder {
+  color: #cbcbcb;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.comm-input__two input::placeholder {
+  color: #cbcbcb;
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+
+.comm-btn {
+  text-align: right;
+}
+
+.comm-btn a {
+  border-radius: 25px;
+  background-color: #ea0d60;
+  text-decoration: none;
+  padding: 20px 35px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.48px;
+}
 /*# sourceMappingURL=style.css.map */
