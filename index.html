@@ -12,8 +12,9 @@
     <title>Car</title>
 </head>
 <body style="display: none;">
-    <header>
-        <div class="header">
+    <header >
+
+        <div class="header block_1">
             <div class="header-block">
                 <div class="header-nav">
                     <div class="header-nav__logo animated fadeInLeft">
@@ -37,35 +38,13 @@
                     <a href="#">Go Drive</a>
                 </div>
             </div>
-
-            <div class="dots">
-                <div class="dot dot-active one">
-                    <p>- 1</p>
-                </div>
-                <div class="dot two">
-                    <p>- 2</p>
-                </div>
-                <div class="dot three">
-                    <p>- 3</p>
-                </div>
-                <div class="dot four">
-                    <p>- 4</p>
-                </div>
-                <div class="dot five">
-                    <p>- 5</p>
-                </div>
-                <div class="dot six">
-                    <p>- 6</p>
-                </div>
-            </div>
-
         </div>
         
     </header>
 
     <main>
 
-        <section class="overview">
+        <section class="overview block_2">
             <div class="overview-block">
                 <div class="overview-header">
                     <p>01</p>
@@ -100,29 +79,9 @@
                 </div>
             </div>
 
-            <div class="dots">
-                <div class="dot one">
-                    <p>- 1</p>
-                </div>
-                <div class="dot dot-active two">
-                    <p>- 2</p>
-                </div>
-                <div class="dot three">
-                    <p>- 3</p>
-                </div>
-                <div class="dot four">
-                    <p>- 4</p>
-                </div>
-                <div class="dot five">
-                    <p>- 5</p>
-                </div>
-                <div class="dot six">
-                    <p>- 6</p>
-                </div>
-            </div>
         </section>
 
-        <section class="details">
+        <section class="details block_3">
             <div class="details-block">
                 <div class="details-header">
                     <p>02</p>
@@ -169,29 +128,9 @@
                     </div>
                 </div>
             </div>
-            <div class="dots">
-                <div class="dot one">
-                    <p>- 1</p>
-                </div>
-                <div class="dot two">
-                    <p>- 2</p>
-                </div>
-                <div class="dot dot-active three">
-                    <p>- 3</p>
-                </div>
-                <div class="dot four">
-                    <p>- 4</p>
-                </div>
-                <div class="dot five">
-                    <p>- 5</p>
-                </div>
-                <div class="dot six">
-                    <p>- 6</p>
-                </div>
-            </div>
         </section>
 
-        <section class="back">
+        <section class="back block_4">
             <div class="back-block">
 
                 <div class="back-header">
@@ -219,29 +158,9 @@
                 </div>
                 
             </div>
-            <div class="dots">
-                <div class="dot one">
-                    <p>- 1</p>
-                </div>
-                <div class="dot two">
-                    <p>- 2</p>
-                </div>
-                <div class="dot three">
-                    <p>- 3</p>
-                </div>
-                <div class="dot dot-active four">
-                    <p>- 4</p>
-                </div>
-                <div class="dot five">
-                    <p>- 5</p>
-                </div>
-                <div class="dot six">
-                    <p>- 6</p>
-                </div>
-            </div>
         </section>
 
-        <section class="price">
+        <section class="price block_5">
             <div class="price-block">
                 <div class="price-header">
                     <p>03</p>
@@ -262,33 +181,13 @@
                     <img class="price-img__right" src="./img/price/right1.png" alt="#">
                 </div>
             </div>
-            <div class="dots">
-                <div class="dot one">
-                    <p>- 1</p>
-                </div>
-                <div class="dot two">
-                    <p>- 2</p>
-                </div>
-                <div class="dot three">
-                    <p>- 3</p>
-                </div>
-                <div class="dot four">
-                    <p>- 4</p>
-                </div>
-                <div class="dot dot-active five">
-                    <p>- 5</p>
-                </div>
-                <div class="dot six">
-                    <p>- 6</p>
-                </div>
-            </div>
         </section>  
 
     </main>
 
     <footer>
 
-        <div class="footer">
+        <div class="footer block_6">
             <div class="footer-header wow fadeInUp">
                 <div class="footer-header__text ">
                     <h2>Only This Month</h2>
@@ -340,26 +239,6 @@
                     </div>
                 </div>
             </div>
-            <div class="dots">
-                <div class="dot one">
-                    <p>- 1</p>
-                </div>
-                <div class="dot two">
-                    <p>- 2</p>
-                </div>
-                <div class="dot three">
-                    <p>- 3</p>
-                </div>
-                <div class="dot four">
-                    <p>- 4</p>
-                </div>
-                <div class="dot five">
-                    <p>- 5</p>
-                </div>
-                <div class="dot dot-active six">
-                    <p>- 6</p>
-                </div>
-            </div>
         </div>
 
     </footer>
@@ -381,7 +260,12 @@
             }); 
         });
 
+        $(".dot").on("click", function(e) {
+            e.preventDefault();
+        });
+
     </script>
+
 
 </body>
 
