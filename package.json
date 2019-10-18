@@ -1,0 +1,26 @@
+{
+  "name": "car_maket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevmurad/car_maket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdevmurad/car_maket/issues"
+  },
+  "homepage": "https://github.com/webdevmurad/car_maket#readme",
+  "dependencies": {
+    "gulp-tinypng-compress": "^1.2.5"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
